@@ -40,7 +40,7 @@ const Skills = () => {
               transition={{ duration: 0.4, delay: index * 0.1 }}
             >
               {/* Backend badge */}
-              {index === 0 && (
+              {index === 1 && (
                 <span className="absolute -top-3 left-4 text-xs bg-primary text-primary-foreground px-2 py-0.5 rounded-full font-medium">
                   Primary
                 </span>
