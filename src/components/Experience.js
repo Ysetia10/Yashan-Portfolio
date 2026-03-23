@@ -53,6 +53,13 @@ const Experience = () => {
                   transition={{ duration: 0.3, delay: index * 0.1 + 0.2 }}
                 />
 
+                {/* Floating accent dot */}
+                <motion.div
+                  className="absolute -top-1 -right-1 w-3 h-3 bg-gradient-to-r from-primary to-emerald-500 rounded-full opacity-60"
+                  animate={{ scale: [1, 1.3, 1], opacity: [0.6, 0.9, 0.6] }}
+                  transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut', delay: index * 0.3 }}
+                />
+
                 <motion.div
                   className="rounded-xl border border-border/50 bg-card/50 backdrop-blur-sm p-6 shadow-lg hover:shadow-xl transition-all duration-500 hover:-translate-y-1"
                   whileHover={{ scale: 1.01 }}

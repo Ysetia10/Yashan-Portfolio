@@ -39,6 +39,13 @@ const Projects = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: idx * 0.1 }}
             >
+              {/* Floating accent dot */}
+              <motion.div
+                className="absolute -top-3 -right-3 w-6 h-6 bg-gradient-to-r from-primary to-emerald-500 rounded-full opacity-70"
+                animate={{ scale: [1, 1.3, 1], opacity: [0.7, 0.9, 0.7] }}
+                transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}
+              />
+
               <div className="relative z-10">
                 <div className="flex items-start justify-between gap-4 mb-4">
                   <div>
