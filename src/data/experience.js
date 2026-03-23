@@ -11,4 +11,15 @@ export const experience = [
       "Collaborated on system design decisions and backend infrastructure improvements.",
     ],
   },
+  {
+    title: "Software Engineer Intern",
+    company: "Sopra Banking Software",
+    period: "Jan 2024 – Jun 2024",
+    bullets: [
+      "Automated and maintained 170+ mobile test cases using Appium and TestNG, improving regression efficiency.",
+      "Built and executed automation frameworks using Java, Gradle, and Cucumber.",
+      "Performed cross-device testing using BrowserStack and Appium Inspector.",
+      "Contributed to improving test reliability and reducing manual testing effort across the QA pipeline.",
+    ],
+  },
 ];
