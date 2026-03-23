@@ -46,7 +46,7 @@ const Contact = () => {
           <div className="flex-1 min-w-[280px]">
             <ToastContainer />
             <h3 className="text-xl font-semibold">Get In Touch</h3>
-            <p className="text-muted-foreground mt-2">Open to backend engineering roles, collaborations, and interesting problems.</p>
+            <p className="text-muted-foreground mt-2">Open to full-stack and backend engineering roles, collaborations, and interesting problems.</p>
 
             <div className="mt-6 space-y-4">
               <div className="flex items-center gap-3">

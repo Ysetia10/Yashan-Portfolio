@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="space-y-2">
             <h3 className="text-lg font-semibold">{profile.name}</h3>
             <p className="max-w-md text-sm text-muted-foreground">
-              Backend Engineer specializing in scalable systems with Spring Boot and Java.
+              Full-stack developer building reliable products with Java, Spring Boot, React, and TypeScript.
             </p>
           </div>
 

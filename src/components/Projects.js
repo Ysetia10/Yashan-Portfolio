@@ -26,7 +26,7 @@ const Projects = () => {
           <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight bg-gradient-to-r from-foreground to-muted-foreground bg-clip-text text-transparent">
             Projects
           </h2>
-          <p className="mt-2 text-sm text-muted-foreground">Real-world systems built with a backend-first mindset.</p>
+          <p className="mt-2 text-sm text-muted-foreground">Things I've built — from idea to deployment.</p>
         </motion.div>
 
         <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3 mt-10">

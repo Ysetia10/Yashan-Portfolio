@@ -24,7 +24,7 @@ const Skills = () => {
           <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight bg-gradient-to-r from-foreground to-muted-foreground bg-clip-text text-transparent">
             Technical Skills
           </h2>
-          <p className="mt-2 text-sm text-muted-foreground">Backend-first. Full-stack capable.</p>
+          <p className="mt-2 text-sm text-muted-foreground">Languages, frameworks, and tools I work with.</p>
         </motion.div>
 
         <div className="grid gap-6 md:grid-cols-2">

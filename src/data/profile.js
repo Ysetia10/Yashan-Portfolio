@@ -6,9 +6,9 @@ export const profile = {
     "Scalable Systems Builder",
   ],
   bio: [
-    "Backend engineer specializing in building scalable, high-performance systems using Java and Spring Boot.",
-    "Currently at Bessegen Infotech, designing and developing REST APIs, backend services, and monitoring solutions with Datadog and Grafana.",
-    "Full-stack capable — but backend is where the real work happens.",
+    "Full-stack developer with a strong foundation in backend engineering — building reliable APIs, scalable services, and end-to-end product features.",
+    "Currently at Bessegen Infotech, working across the stack with Java, Spring Boot, React, and TypeScript, with a focus on clean architecture and system reliability.",
+    "I enjoy owning features from database design to UI — and everything in between.",
   ],
   image: null,
   social: {
