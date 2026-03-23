@@ -2,7 +2,7 @@ export const profile = {
   name: "Yashan Setia",
   titles: [
     "Backend Engineer",
-    "Spring Boot Specialist",
+    "Backend Developer",
     "Scalable Systems Builder",
   ],
   bio: [

@@ -2,7 +2,7 @@ export const experience = [
   {
     title: "Software Engineer",
     company: "Bessegen Infotech",
-    period: "Present",
+    period: "Jan 2025 – Present",
     bullets: [
       "Backend development using Java and Spring Boot, building scalable REST APIs and microservices.",
       "Designed and implemented backend architecture for core product features.",
