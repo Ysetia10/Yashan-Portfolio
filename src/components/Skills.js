@@ -31,20 +31,13 @@ const Skills = () => {
           {skills.map((category, index) => (
             <motion.div
               key={index}
-              className={`relative rounded-xl border bg-card/50 backdrop-blur-sm p-6 shadow-lg hover:shadow-xl transition-all duration-500 hover:-translate-y-1 ${
-                index < 2 ? 'border-primary/30' : 'border-border/50'
-              }`}
+              className={`relative rounded-xl border bg-card/50 backdrop-blur-sm p-6 shadow-lg hover:shadow-xl transition-all duration-500 hover:-translate-y-1 border-border/50`}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: index * 0.1 }}
             >
-              {/* Backend badge */}
-              {index === 1 && (
-                <span className="absolute -top-3 left-4 text-xs bg-primary text-primary-foreground px-2 py-0.5 rounded-full font-medium">
-                  Primary
-                </span>
-              )}
+              {/* no primary badge */}
 
               <h3 className="text-lg font-semibold mb-6 relative pb-3">
                 <span className="bg-gradient-to-r from-primary via-emerald-500 to-teal-500 bg-clip-text text-transparent">

@@ -3,6 +3,7 @@ import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 import { ReactTyped } from 'react-typed';
 import { profile } from '../data/profile';
 import { motion } from 'framer-motion';
+import profilePhoto from '../Assets/yashan_portfolio_pf.jpeg';
 
 const About = () => {
   return (
@@ -128,7 +129,7 @@ const About = () => {
           </motion.div>
         </motion.div>
 
-        {/* Right side — avatar placeholder */}
+        {/* Right side — profile photo */}
         <motion.div
           className="flex-shrink-0"
           initial={{ opacity: 0, x: 50 }}
@@ -142,14 +143,12 @@ const About = () => {
               animate={{ scale: [1, 1.05, 1], opacity: [0.2, 0.3, 0.2] }}
               transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}
             />
-            <div className="relative w-64 h-64 rounded-2xl border border-border/50 bg-gradient-to-br from-primary/10 to-emerald-500/10 flex items-center justify-center">
-              <div className="text-center">
-                <div className="w-24 h-24 rounded-full bg-gradient-to-br from-primary to-emerald-500 flex items-center justify-center mx-auto mb-3">
-                  <span className="text-3xl font-bold text-primary-foreground">YS</span>
-                </div>
-                <p className="text-sm text-muted-foreground">Backend Engineer</p>
-                <p className="text-xs text-primary font-medium mt-1">@ Bessegen Infotech</p>
-              </div>
+            <div className="relative w-64 h-64 rounded-2xl border border-border/50 overflow-hidden shadow-xl">
+              <img
+                src={profilePhoto}
+                alt="Yashan Setia"
+                className="w-full h-full object-cover object-top"
+              />
             </div>
           </div>
         </motion.div>
