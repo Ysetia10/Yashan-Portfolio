@@ -1,23 +1,8 @@
 export const projects = [
   {
-    title: "Legal-Lens",
-    period: "2024",
-    // bullets[0-1] shown on card, all 3 shown in Details dialog
-    bullets: [
-      "Analyzes legal documents to extract key clauses, simplify complex language, and answer user questions — making contracts easier to understand without legal expertise.",
-      "Reduces time spent decoding legal text by surfacing what actually matters in a document.",
-      "Built with a Spring Boot backend, Flask-based ML service for NLP processing, React frontend, and PostgreSQL for document storage.",
-    ],
-    links: {
-      code: "https://github.com/Ysetia10/legal-lens",
-      demo: "https://legal-lens-clarify.lovable.app/",
-    },
-    tags: ["Spring Boot", "Flask", "React", "PostgreSQL"],
-    badge: "AI",
-  },
-  {
     title: "Clearixam",
-    period: "2024",
+    period: "2026",
+    // bullets[0-1] shown on card, all 3 shown in Details dialog
     bullets: [
       "Exam preparation platform that delivers structured content and tracks student performance over time — helping learners identify weak areas and improve systematically.",
       "Gives students an organized, progress-aware study experience rather than scattered resources.",
@@ -29,6 +14,21 @@ export const projects = [
     },
     tags: ["Spring Boot", "React", "TypeScript", "PostgreSQL"],
     badge: "Full Stack",
+  },
+  {
+    title: "Legal-Lens",
+    period: "2025",
+    bullets: [
+      "Analyzes legal documents to extract key clauses, simplify complex language, and answer user questions — making contracts easier to understand without legal expertise.",
+      "Reduces time spent decoding legal text by surfacing what actually matters in a document.",
+      "Built with a Spring Boot backend, Flask-based ML service for NLP processing, React frontend, and PostgreSQL for document storage.",
+    ],
+    links: {
+      code: "https://github.com/Ysetia10/legal-lens",
+      demo: "https://legal-lens-clarify.lovable.app/",
+    },
+    tags: ["Spring Boot", "Flask", "React", "PostgreSQL"],
+    badge: "AI",
   },
   {
     title: "SpeechSage",
