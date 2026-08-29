@@ -1,5 +1,21 @@
 export const projects = [
   {
+    title: "Kleos Transfers",
+    period: "2026",
+    // bullets[0-1] shown on card, all 3 shown in Details dialog
+    bullets: [
+      "Open-source football transfer predictor that estimates how a player will perform at a specific club and season — with the contextual factors behind each projection.",
+      "Turns a transfer scenario into explainable minutes, goals, assists, and fit scores instead of a black-box ranking.",
+      "Spring Boot prediction API with a React + TypeScript frontend and PostgreSQL; heuristic engine covers the top five leagues from 2016/17–2025/26.",
+    ],
+    links: {
+      code: "https://github.com/Ysetia10/kleos-transfers",
+      demo: "https://kleos-transfer.vercel.app",
+    },
+    tags: ["Spring Boot", "React", "TypeScript", "PostgreSQL"],
+    badge: "Full Stack",
+  },
+  {
     title: "Clearixam",
     period: "2026",
     // bullets[0-1] shown on card, all 3 shown in Details dialog
