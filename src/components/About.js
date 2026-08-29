@@ -85,6 +85,14 @@ const About = () => {
             >
               Contact
             </a>
+            <a
+              href={profile.social.resume}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center rounded-md border border-border px-5 py-2.5 text-sm font-medium hover:bg-accent hover:text-accent-foreground transition-colors"
+            >
+              Resume
+            </a>
           </motion.div>
 
           {/* Social links */}

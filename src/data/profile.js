@@ -15,6 +15,7 @@ export const profile = {
     email: "yashansetia7@gmail.com",
     linkedin: "https://www.linkedin.com/in/yashan-setia-03a463249/",
     github: "https://github.com/Ysetia10",
+    resume: "/YashanResume.pdf",
     x: null,
   },
 };
